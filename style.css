@@ -1,0 +1,150 @@
+/*GenAI Usage Statement: All the code I wrote is my own. I made use of Claude and Google's AI Overview for debugging tips and tricks, and I also used them as advanced search tools to help refresh my knowledge on Grid and other CSS information.*/
+/*I did paste my code into the chat before to ask for debugging tips, but I did not copy nor paste any of the code, and I did not really follow the suggestions the chat ended up saying.*/
+/*For example, for the fonts, I ended up just using the default fonts offered like Georgia instead of importing them because I thought it'd be too much trouble. So I didn't follow what Claude suggested in the final output for this deliverable for fonts.*/
+/*Anthropic. (2026, October 19). Assignment time estimate [Generative AI chat asking about debugging and CSS tips]. Claude/Sonnet 5.5. https://claude.ai/chat/b6b8e840-b518-4449-b53b-427108dadd74 */
+main {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+header h1 {
+    grid-column: 2/span 3;
+}
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;;
+  background-color: #edecec;
+}
+
+head {
+    background-color: #00274C;
+    color: #FFCB05;
+}
+
+body img {
+    width: 100%;
+    height: auto;
+}
+
+
+body section, body article, body aside {
+    grid-column: 2 / span 5;
+    padding: 2rem;
+
+    background-color: white;
+}
+
+body section img, body section iframe {
+    width: 100%;
+}
+
+
+header, footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 1rem;
+}
+
+header {
+    background-color: #00274C;
+    color: white;
+}
+
+header img {
+    grid-row-start: 1;
+    grid-column: 2/ span 5;
+    align-items: center;
+    width: 50%;
+}
+
+header nav {
+    grid-row-start: 2;
+    grid-column: 2/span 5;
+}
+
+header nav ul {
+    padding: 2rem;
+    border-top: 0.5px solid white ;
+    border-bottom: 0.5px solid white;
+
+}
+header nav ul a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+header h1 {
+    padding: 0.5rem;
+    grid-row-start: 4;
+    grid-column: 2 /span 5;
+}
+
+
+
+footer {
+    background-color: #00274C;
+    color: white;
+}
+
+
+:link {color: #00274C;}
+:visited {color: #00274C;}
+
+footer a:link {
+    color: #FFCB05;
+}
+footer a:visited {
+    color: #FFCB05;
+}
+
+
+footer p, footer address {
+    grid-column: 2 / span 5;
+}
+
+header a:link {
+    color: white;
+}
+header a:visited {
+    color: white;
+}
+
+header a[href="#main"]:first-child {
+    position: absolute;
+    left: -10000px;
+    color: white;
+
+}
+
+header a[href="#main"]:first-child:focus {
+    position: absolute;
+    left: 0px;
+    color: white;
+
+}
+
+footer p, footer address {
+    padding: 1rem;
+}
+
+
+main a:link {
+    color: #2F65A7;
+}
+
+main a:visited {
+    color: #2F65A7;
+}
