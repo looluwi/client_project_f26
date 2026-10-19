@@ -123,11 +123,17 @@ header a:visited {
 }
 
 header a[href="#main"]:first-child {
-    color: #00274C;
+    position: absolute;
+    left: -10000px;
+    color: white;
+
 }
 
 header a[href="#main"]:first-child:focus {
+    position: absolute;
+    left: 0px;
     color: white;
+
 }
 
 footer p, footer address {
