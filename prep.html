@@ -5,40 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Resumes</title>
+    <title>Preparing & Starting on Your Journey!</title>
 </head>
 <body>
 
     <header>
 
+  <div class="container">
   <a href = "#main">Skip to Main Content</a>
-        <img src = "images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <img src="images/UMSI_signature_vertical_informal_allblue.png" alt="UMSI Logo">
+  </div>  
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "prep.html">Preparing for Your Experience</a></li>
                 <li><a href = "experience.html">Starting Your Experience</a></li>
-                <li><a href="page4.html">Other Important Resources</a></li>
+                <li><a href="other_resources.html">Additional/Urgent Wellbeing Resources</a></li>
             </ul>
         </nav>
     <h1>Preparing & Starting on Your Journey!</h1>
   </header>
-<main id="main">
+
   
+<img src = "images/UMSI_MastersOrientation_081825_15 (1).jpg" width = "400" height = "266" alt = "UMSI Master's students' orientation at Leinweber">
+<div class="overlay">A day of UMSI Masters students' orientation.</div>
+<main id="main">
+<div class="grid_container">
+<div class="card">
 <section>
   <h2>Launch Your Engaged Learning Journey</h2>
   <p>Transform your academic knowledge into real-world impact. Use this guide to understand your project context, evaluate team readiness, establish expectations, and begin a productive partnership.</p>
 </section>
+</div>
 
+<div class="card">
 <section>
   <h2>Why the Work Starts Before the Project</h2>
   <p>Engaged learning at UMSI is fundamentally different from traditional classroom assignments. You are stepping out of controlled environments and into complex, unscripted ecosystems where technical solutions intersect with human lives, organizational cultures, and real community needs.</p>
   <p>The initial phase of a project is rarely about jumping straight into execution—it is about building the foundation for ethical, sustainable engagement. Taking time to reflect on your own positionality, audit your team’s collective skills, and listen deeply to your partner’s goals prevents project failure down the line. When you ground your project in mutual respect, clear boundaries, and honest communication from Day 1, you transform a simple class deliverable into a reciprocal partnership that creates authentic value for everyone involved.</p>
-
-
 </section>
+</div>
 
-<section>
+
+  <div class="card">
+  <section>
   <h2>Phase 1: Preparing for the Experience</h2>
   <p>Before creating a solution, take time to understand the context, evaluate your team's readiness, and identify what you still need to learn.</p>
   <article>
@@ -46,6 +56,7 @@
     <p>Before writing code, sketching wireframes, or analyzing data, consider how your identity and previous experiences influence the way you understand the project.</p>
     <p>Your role is not to enter an organization or community as an outside expert who will fix a problem. Your role is to listen, ask questions, contribute your developing expertise, and work alongside people who understand their organization and community.</p>
   </article>
+  </section>
 
   <article>
     <h3>Preparation Goals</h3>
@@ -96,21 +107,26 @@
       <li><a href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link">Project Management Worksheet</a>: Guidance on clarifying the project scope and objectives, team roles, and timeline. This worksheet can be used by the project team and shared with the client.</li>
     </ul>
   </article>
-</section>
-<section>
+</div>
+
+<div class="card">
   <h2>Phase 2: Starting the Experience?</h2>
   <a href = "experience.html">Click here to read more about starting your experience!</a>
-</section>
+</div>
 <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a prep page using the ELO content below" - this was after I had asked for content for the home page. " UMGPT. (2026). UMGPT ( GPT-5.6 Sol September 7th version) [Large language model]. -->
+</div>
 </main>
+
 <footer>
         <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
       <address>
         <a href="mailto:umsi.engagement@umich.edu"> umsi.engagement@umich.edu </a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
-    </footer>
-    
+      <p>&copy; <span id="year"></span> Regents of the University of Michigan</p>
+      <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</footer>
 </body>
 
 </html>
