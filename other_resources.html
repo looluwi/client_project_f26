@@ -5,28 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Additional/Urgent Wellbeing Resources</title>
 </head>
 <body>
      <header>
         <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <img src="images/UMSI_signature_vertical_informal_allblue.png" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "prep.html">Preparing for Your Experience</a></li>
                 <li><a href = "experience.html">Starting Your Experience</a></li>
-                <li><a href = "page4.html">Other Important Resources</a></li>
+                <li><a href = "other_resources.html">Additional/Urgent Wellbeing Resources</a></li>
             </ul>
         </nav>
-        <h1>More Important Resources to Know About</h1>
+        <h1>Additional/Urgent Wellbeing Resources</h1>
     </header>
-    <main id="main">
+    <div class="container">
+   <img src="images/MCOMMONS-EarlyJunePhotoWalks-6.jpg" alt="Feminine statue holding a sign saying friendship">
+   <div class="overlay">A friendly statue holding a sign saying, "friendship."</div>
+   </div> 
+   <main id="main">
+    
+    <div class="grid_container">
+
+    <div class="card">
     <section>
-    <h1>More Campus Parter Resources and Urgent Wellbeing</h1>
+    <h2>Success Starts With Wellness</h2>
     <p>Wellbeing and learning go hand-in-hand. Here at the University of Michigan, not only do we have so many resources to help you learn, but we also have resources to help you when you're in need of help for an emergency, food, and much more.</p>
-    <img src = "images/MCOMMONS-EarlyJunePhotoWalks-6.jpg" width = "384" height = "576" alt = "A statue behind a foreground of leaves holding a sign saying friendship">
+    
     </section>
+    </div>
+
+    <div class="card">
     <section>
         <h2>Additional Campus Partner Resources</h2>
         <p>Cross-disciplinary partner organizations across the University of Michigan offer specialized instructional support and workshop sessions that you can incorporate into your curriculum.</p>
@@ -52,6 +63,9 @@
             </li>
         </ul>
     </section>
+    </div>
+
+    <div class="card">
     <section>
         <h2>Urgent Food, Mental Health, and Crisis Resources</h2>
         <p>Are you worried about food? Money? Housing? The University of Michigan has so many resources to help you, and we want you to know about them.</p>
@@ -62,13 +76,21 @@
             <li><a href = "https://uhc.umich.edu/postvention-response-team">Postvention Response Team: </a> If you are experiencing or have experience a traumatic event, the Postvention Response Team and other resources are here to help.</li>
         </ul>
     </section>
+    </div>
+    </div>
+    
     </main>
-   <footer>
+    
+
+<footer>
         <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
       <address>
         <a href="mailto:umsi.engagement@umich.edu"> umsi.engagement@umich.edu </a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p>&copy; <span id="year"></span> Regents of the University of Michigan</p>
+      <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </footer>
    
 </body>
