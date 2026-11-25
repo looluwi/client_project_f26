@@ -1,12 +1,17 @@
-/*GenAI Usage Statement: All the code written below is either mine or a mix of code I found from StyleStage.dev, specifically the stylesheet "Yellowed" by Sowmya Seshadri. */
-/*GenAI Usage: I made use of Claude and Google's AI Overview for debugging tips and tricks, and I also used them as advanced search tools to help refresh my knowledge on Grid and other CSS information.*/
+/*Usage of StyleStage.Dev: Most of the styling and code was taken from the stylesheet, "Yellowed" by Sowmya Seshadri, as found on StyleStage.Dev. */
+/*I also incorporate my own CSS styling from the deliverable #2, and I also made significant changes or rearrangements to the structure of this stylesheet to fit*/
+/*the branding of UM and to fit my intentions for the navlinks*/
+/*GenAI Usage: NONE OF THIS CODE IS AI GENERATED. I made use of Claude and Google's AI Overview for debugging tips and tricks, and I also used them as advanced search tools to help refresh my knowledge on Grid and other CSS information.*/
 /*I did paste my code into the chat before to ask for debugging tips, and I did implement a few of the suggestions, but I mostly tried to use the Validators to double-check revisions I made.*/
+/*I try very carefully to avoid exhaustive proofreading as mentioned in the syllabus, and I always double-check with validators and search the meanings of the errors I encountered.*/
+/*The intention behind me using Claude was also for reassurance, as I knew I was going to be submitting this assignment late, and I wanted reassurance from */
+/*something that could talk me through general logistics of what topics to tackle first. Again, I will NEVER ask AI to generate or write anything for me.*/
 /*For example, for the fonts, I ended up just using the default fonts offered like Georgia instead of importing them because I thought it'd be too much trouble. So I didn't follow what Claude suggested in the final output for this deliverable for fonts.*/
 /*Anthropic. (2026, October 19). Assignment time estimate [Generative AI chat asking about debugging and CSS tips]. Claude/Sonnet 5.5. https://claude.ai/chat/b6b8e840-b518-4449-b53b-427108dadd74 */
 
 
 
-/*Most of the code written below is created by Sowmya Seshadri*/
+/*Most of the code written below is created by Sowmya Seshadri, but I did add changes to the colors and formatting of the navlinks to fit my site*/
 /*My own code is at the very, very, very bottom*/
 
 /*!
