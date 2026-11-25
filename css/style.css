@@ -1082,3 +1082,9 @@ footer p, footer address a {
 
 
 }
+
+#myBtn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
